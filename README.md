@@ -24,11 +24,26 @@ composer require filisko/fake-psr3-logger --dev
 This package provides a [PSR-3](http://www.php-fig.org/psr/psr-3/) (`Psr\Log\LoggerInterface`) implementation standard to store the logs.
 
 ```php
-use Middlewares\AccessLog;
+use Filisko\FakeLogger;
 
-$format = AccessLog::FORMAT_COMMON_VHOST;
+// PHP Unit scenario
 
-$accessLog = (new AccessLog($logger))->format($format);
+$logger = new FakeLogger();
+$logger->info('Something interesting happened', [
+    'gold' => 'found'
+]);
+
+$this->assertSame([
+    [
+        'level' => 'info',
+        'message' => 'Something interesting happened',
+        'context' => [
+            'user_id' => 1,
+        ],
+    ]
+], $logger->logs());
+
+$this->assertSame(1, $logger->count());
 ```
 
 ---
