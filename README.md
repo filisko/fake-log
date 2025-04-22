@@ -10,7 +10,7 @@ A simpole package that provides a PSR-3 implementation for integration tests.
 ## Requirements
 
 * PHP >= 7.2
-* 
+
 ## Installation
 
 This package is installable and autoloadable via Composer as [filisko/fake-psr3-logger](https://packagist.org/packages/filisko/fake-psr3-logger).
