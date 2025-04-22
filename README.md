@@ -5,11 +5,11 @@
 ![Testing][ico-ga]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A simpole package that provides a PSR-3 implementation for integration tests.
+A simple package that provides a PSR-3 implementation for integration tests.
 
 ## Requirements
 
-* PHP >= 7.2
+* In comparison to most packages, it starts providing support from **PHP >= 7.2**
 
 ## Installation
 
@@ -21,7 +21,7 @@ composer require filisko/fake-psr3-logger --dev
 
 ## Usage
 
-This package provides a [PSR-3](http://www.php-fig.org/psr/psr-3/) (`Psr\Log\LoggerInterface`) implementation standard to store the logs.
+This package provides a [PSR-3](http://www.php-fig.org/psr/psr-3/) (`Psr\Log\LoggerInterface`) implementation that allows you to verify the logging your code has made.
 
 ```php
 use Filisko\FakeLogger;
