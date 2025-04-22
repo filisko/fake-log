@@ -14,7 +14,10 @@ class FakeLoggerTest extends TestCase
         $logger = new FakeLogger();
 
         $this->expectException(\InvalidArgumentException::class);
-        $this->expectExceptionMessage('Invalid level "wronk". Valid levels are: emergency, alert, critical, error, warning, notice, info, debug');
+        $this->expectExceptionMessage(
+            'Invalid level "wronk". '.
+            'Valid levels are: emergency, alert, critical, error, warning, notice, info, debug'
+        );
 
         $logger->log('wronk', 'Error');
     }

@@ -24,6 +24,7 @@ class FakeLogger implements LoggerInterface
 
     /**
      * {@inheritdoc}
+     * @phpstan-ignore-next-line we can't use string|Stringable as it is introduced in 8.0
      */
     public function log($level, $message, array $context = []): void
     {
