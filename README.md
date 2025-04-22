@@ -31,7 +31,7 @@ use Filisko\FakeLogger;
 
 $logger = new FakeLogger();
 $logger->info('Something interesting happened', [
-    'gold' => 'found'
+    'user_id' => 1
 ]);
 
 $this->assertSame([
