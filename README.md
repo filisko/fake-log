@@ -9,7 +9,7 @@ A simpole package that provides a PSR-3 implementation for integration tests.
 
 ## Requirements
 
-* PHP >= 7.2
+* In comparison to most packages, it starts providing support from **PHP >= 7.2**
 
 ## Installation
 
