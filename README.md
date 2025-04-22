@@ -5,7 +5,7 @@
 ![Testing][ico-ga]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A simpole package that provides a PSR-3 implementation for integration tests.
+A simple package that provides a PSR-3 implementation for integration tests.
 
 ## Requirements
 
