@@ -9,7 +9,7 @@ A simple package that provides a PSR-3 implementation for integration tests.
 
 ## Requirements
 
-* In comparison to most packages, it starts providing support from **PHP >= 7.2**
+* PHP >= 7.2
 
 ## Installation
 
@@ -34,6 +34,9 @@ $logger->info('Something interesting happened', [
     'user_id' => 1
 ]);
 
+// logs exposed
+$logs = $logger->logs();
+
 $this->assertSame([
     [
         'level' => 'info',
@@ -42,7 +45,7 @@ $this->assertSame([
             'user_id' => 1,
         ],
     ]
-], $logger->logs());
+], $logs);
 
 $this->assertSame(1, $logger->count());
 ```
