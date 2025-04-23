@@ -53,7 +53,7 @@ $this->assertSame(1, $logger->count());
 ## Other PSR testing utilities
 
 - PSR-16 fake cache: [kodus/mock-cache](https://github.com/kodus/mock-cache)
-- Minimalist PSR-15 middleware dispatcher (PSR-7, PSR-17): [middlewares/utils](https://github.com/middlewares/utils?tab=readme-ov-file#dispatcher)
+- PSR-15 middleware dispatcher (PSR-7, PSR-17): [middlewares/utils](https://github.com/middlewares/utils?tab=readme-ov-file#dispatcher)
 
 ---
 
