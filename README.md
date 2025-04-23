@@ -5,7 +5,7 @@
 ![Testing][ico-ga]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A simple package that provides a PSR-3 implementation for integration tests.
+A package that provides a simple PSR-3 implementation for integration tests.
 
 ## Requirements
 
