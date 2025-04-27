@@ -54,4 +54,12 @@ class FakeLoggerTest extends TestCase
 
         $this->assertSame(0, $logger->count());
     }
+
+    public function test_no_logs_return_empty_array(): void
+    {
+        $logger = new FakeLogger();
+
+        $this->assertSame([], $logger->logs());
+        $this->assertSame(0, $logger->count());
+    }
 }

@@ -20,7 +20,7 @@ class FakeLogger implements LoggerInterface
      *     context: array<string, mixed>
      * }>
      */
-    private $records;
+    private $records = [];
 
     /**
      * {@inheritdoc}
