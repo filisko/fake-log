@@ -14,5 +14,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release.
 
-[1.0.1]: https://github.com/middlewares/error-handler/compare/v1.0.0...v1.0.1
+[1.0.1]: https://github.com/filisko/fake-psr3-logger/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/filisko/fake-psr3-logger/releases/tag/v1.0.0
