@@ -2,9 +2,7 @@ name: "testing"
 
 on:
     push:
-        branches: [ main ]
     pull_request:
-        branches: [ main ]
 
 jobs:
     qa:
@@ -28,7 +26,6 @@ jobs:
                       ${{ runner.os }}-php-
 
             - name: Install dependencies
-              if: steps.composer-cache.outputs.cache-hit != 'true'
               run: composer install --prefer-dist --no-progress
 
             - name: Coding Standard
