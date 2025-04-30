@@ -24,8 +24,7 @@
         "phpunit/phpunit": "^8 || ^9",
         "friendsofphp/php-cs-fixer": "^3",
         "squizlabs/php_codesniffer": "^3",
-        "phpstan/phpstan": "^1 || ^2",
-        "php-coveralls/php-coveralls": "@dev"
+        "phpstan/phpstan": "^1 || ^2"
     },
     "provide": {
         "psr/log-implementation": "^1 || ^2 || ^3"
@@ -46,7 +45,6 @@
         "phpstan": "phpstan analyse",
         "test": "phpunit",
         "coverage": "XDEBUG_MODE=coverage phpunit",
-        "coverage-html": "XDEBUG_MODE=coverage phpunit --coverage-html=build/html",
-        "coveralls": "php vendor/bin/php-coveralls --exclude-no-stmt --coverage_clover=build/logs/clover.xml -v"
+        "coverage-html": "XDEBUG_MODE=coverage phpunit --coverage-html=build/html"
     }
 }
