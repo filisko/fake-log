@@ -40,11 +40,10 @@
         }
     },
     "scripts": {
-        "cs": "phpcs",
-        "cs-fix": "php-cs-fixer fix",
         "phpstan": "phpstan analyse",
         "test": "phpunit",
-        "coverage": "phpunit --coverage-text",
-        "coverage-html": "phpunit --coverage-html=coverage"
+        "coverage": "XDEBUG_MODE=coverage phpunit",
+        "coverage-html": "XDEBUG_MODE=coverage phpunit --coverage-html=build/html",
+        "coveralls": "php vendor/bin/php-coveralls --exclude-no-stmt --coverage_clover=build/logs/clover.xml -v"
     }
 }

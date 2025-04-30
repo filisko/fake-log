@@ -2,7 +2,8 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE)
-![Testing][ico-ga]
+![Testing][ico-tests]
+![Coverage Status][ico-coverage]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 A package that provides a simple PSR-3 implementation for integration tests.
@@ -61,10 +62,12 @@ Please see [CHANGELOG](CHANGELOG.md) for more information about recent changes a
 
 The MIT License (MIT). Please see [LICENSE](LICENSE) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/filisko/fake-psr3-logger.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-ga]: https://github.com/filisko/fake-psr3-logger/workflows/testing/badge.svg
-[ico-downloads]: https://img.shields.io/packagist/dt/filisko/fake-psr3-logger.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/filisko/fake-psr3-logger.svg?style=flat
+[ico-license]: https://img.shields.io/badge/license-MIT-informational.svg?style=flat
+[ico-tests]: https://github.com/filisko/fake-psr3-logger/workflows/testing/badge.svg
+[ico-coverage]: https://coveralls.io/repos/github/filisko/fake-psr3-logger/badge.svg?branch=main
+[ico-downloads]: https://img.shields.io/packagist/dt/filisko/fake-psr3-logger.svg?style=flat
 
 [link-packagist]: https://packagist.org/packages/filisko/fake-psr3-logger
 [link-downloads]: https://packagist.org/packages/filisko/fake-psr3-logger
+
