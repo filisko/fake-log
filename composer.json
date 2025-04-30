@@ -47,6 +47,6 @@
         "test": "phpunit",
         "coverage": "XDEBUG_MODE=coverage phpunit",
         "coverage-html": "XDEBUG_MODE=coverage phpunit --coverage-html=build/html",
-        "coveralls": "php-coveralls --exclude-no-stmt --coverage_clover=build/logs/clover.xml -v"
+        "coveralls": "php vendor/bin/php-coveralls --exclude-no-stmt --coverage_clover=build/logs/clover.xml -v"
     }
 }
