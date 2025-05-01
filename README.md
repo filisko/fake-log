@@ -16,7 +16,6 @@ A package that provides a simple PSR-3 implementation for integration tests.
 
 This package is installable and autoloadable via Composer as [filisko/fake-psr3-logger](https://packagist.org/packages/filisko/fake-psr3-logger).
 
-You probably want to add it as a dev dependency:
 ```sh
 composer require filisko/fake-psr3-logger --dev
 ```
