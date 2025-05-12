@@ -10,7 +10,7 @@ A package that provides a simple PSR-3 implementation for integration tests.
 
 ## Requirements
 
-* PHP >= 7.2
+* PHP >= 7.1
 
 ## Installation
 
