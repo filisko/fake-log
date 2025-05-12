@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.0] - 2025-05-12
+
+### Added
+
+- Support for PHP 7.1.
+
 ## [1.0.1] - 2025-04-27
 
 ## Fixed
@@ -14,5 +20,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release.
 
+[1.1.0]: https://github.com/filisko/testable-phpfunctions/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/filisko/fake-psr3-logger/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/filisko/fake-psr3-logger/releases/tag/v1.0.0
