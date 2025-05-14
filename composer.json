@@ -1,13 +1,16 @@
 {
     "name": "filisko/fake-psr3-logger",
     "type": "library",
-    "description": "Fake PSR-3 cache implementation for integration testing",
+    "description": "Fake PSR-3 logger implementation for integration testing",
     "license": "MIT",
     "keywords": [
         "psr-3",
+        "psr3",
         "logger",
         "log",
-        "server",
+        "logging",
+        "integration",
+        "tests",
         "testing",
         "fake",
         "mock"
