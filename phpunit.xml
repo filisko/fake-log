@@ -16,7 +16,7 @@
          stopOnFailure="false"
          failOnWarning="true">
     <testsuites>
-        <testsuite name="AccessLog test suite">
+        <testsuite name="Test suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
